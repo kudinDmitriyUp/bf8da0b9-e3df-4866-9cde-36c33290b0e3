@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -23,9 +23,9 @@ export default function LuxuryRealEstatePage() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
-      contentWidth="standard"
+      contentWidth="medium"
       sizing="medium"
-      background="light"
+      background="circleGradient"
       cardStyle="glass-flat"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="outline"
@@ -73,7 +73,7 @@ export default function LuxuryRealEstatePage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763635765581-eeurr3ya.jpg",
               imageAlt: "Boutique real estate office"
             }
-          ]
+          ]}
           autoplayDelay={4000}
         />
       </div>
